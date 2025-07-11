@@ -5,7 +5,6 @@ from langchain.schema.runnable import RunnableParallel
 
 model = ChatGroq(
     temperature = 1,
-    groq_api_key = "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",
     model_name = "meta-llama/llama-4-scout-17b-16e-instruct"
 )
 
