@@ -8,7 +8,6 @@ from typing import Literal
 
 model = ChatGroq(
     temperature=1,
-    groq_api_key="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",
     model_name="meta-llama/llama-4-scout-17b-16e-instruct"
 )
 
